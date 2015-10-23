@@ -15,8 +15,50 @@ new $.nd2Search({
   ],
   
   fn : function(result) {
-    console.log('--- Your custom handling ---');
-    console.log('you picked: ');
+    console.log('--- Menu de Busqueda ---');
+    console.log('Escogistes: ');
     console.log(result);
+
+    switch (result) {
+      case "BOCAS":
+        window.location.replace('bocas.html');;
+        break;
+
+      case "COCLE":
+        window.location.replace('cocle.html');;
+        break;
+
+      case "COLON":
+        window.location.replace('colon.html');;
+        break;
+
+      case "CHIRIQUI":
+        window.location.replace('chiriqui.html');;
+        break;
+
+      case "DARIEN":
+        window.location.replace('darien.html');;
+        break;
+
+      case "HERRERA":
+        window.location.replace('herrera.html');;
+        break;
+
+      case "SANTOS":
+        window.location.replace('santos.html');;
+        break;
+
+      case "PANAMA":
+        window.location.replace('panama.html');;
+        break;
+
+      case "OESTE":
+        window.location.replace('oeste.html');;
+        break;
+
+      case "VERAGUAS":
+        window.location.replace('veraguas.html');;
+        break;
+    }
   }
 });
