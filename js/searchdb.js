@@ -2,7 +2,7 @@ new $.nd2Search({
   placeholder : "Buscar",
   defaultIcon : "globe-alt",
   source : [
-    {"label": "Bocas del Toro", "value": "BOCAS"},
+    {"label": "Bocas Del Toro", "value": "BOCAS"},
     {"label": "Coclé", "value": "COCLE"},
     {"label": "Colón", "value": "COLON"},
     {"label": "Chiriquí", "value": "CHIRIQUI"},

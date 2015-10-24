@@ -31,38 +31,63 @@
       </div>
 
       <div role="main" class="ui-content" data-inset="false">
+
         <div class="nd2-card">
 
           <div class="card-title">
-            <h3 class="card-primary-title">Lugar1</h3>
-            <h5 class="card-subtitle">Pueblo, Provincia</h5>
+            <h3 class="card-primary-title">Cerro La Piedra de Lino</h3>
+            <h5 class="card-subtitle">Cerro La Piedra de Lino, Chiriquí</h5>
           </div>
 
           <div class="card-media">
-            <img src="http://lorempixel.com/400/300/">
+            <img src="../img/lino.jpg">
           </div>
 
           <div class="card-supporting-text has-action">
-            <strong>Lugar</strong>, en geografía, hace referencia a una aglomeración secundaria de un municipio menor que una villa y mayor que una aldea, según la cuarta acepción del Diccionario de la lengua española, editado por la Real Academia Española; por ejemplo, Don Quijote vivía en un "lugar".
+            <strong>Cerro La Piedra de Lino</strong> es una colina y se encuentra en Chiriquí, Panamá. La elevación del terreno estimación sobre el nivel del sello es 1246 metros.
           </div>
 
           <div class="card-action">
             <div class="row between-xs">
               <div class="col-xs-4">
                 <div class="box">
-                  <a href="#" class="ui-btn ui-btn-inline ui-btn-fab"><i class='zmdi zmdi-mic'></i></a>
-                  <a href="#" class="ui-btn ui-btn-inline ui-btn-fab"><i class='zmdi zmdi-videocam'></i></a>
+                  <div class="ui-btn ui-btn-inline ui-btn-fab">
+                    <i class='zmdi zmdi-star'></i>
+                    <i class='zmdi zmdi-star'></i>
+                    <i class='zmdi zmdi-star'></i>
+                    <i class='zmdi zmdi-star'></i>
+                    <i class='zmdi zmdi-star-half'></i>
+                  </div>
                 </div>
               </div>
               <div class="col-xs-8 align-right">
                 <div class="box">
-                  <a href="#" class="ui-btn ui-btn-inline">Action</a>
+                  <a href="#popupDialog" class="ui-btn ui-btn-inline" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop">Más info</a>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
+
+        <a href="#" class="ui-btn ui-btn-inline ui-btn-fab ui-btn-fab-bottom ui-btn-raised clr-primary" data-role="toast" data-toast-message="GPS encendido" data-toast-action-title="Cerrar" data-toast-action-link="#" data-toast-action-color="yellow">
+          <i class='zmdi zmdi-gps-dot zmd-2x'></i>
+        </a>
+
+        <div data-role="popup" id="popupDialog">
+
+          <div data-role="header">
+            <h1 class='nd-title' style="text-align: center;">¿Cómo llegar?</h1>
+          </div>
+
+          <div data-role="content">
+            <p style="text-align: center;">Para llegar a este lugar, puedes usar: </p>
+            <a href="#waze" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary"><i class='zmdi zmdi-google-maps'></i> Google Maps</a>
+            <a href="#gmaps" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary"><i class='zmdi zmdi-navigation'></i> Waze</a>
+            <a href="#" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary"><i class='zmdi zmdi-cancel'></i> Cancelar</a>
+
+          </div>
+        </div>
+
       </div>
 
     </div>
