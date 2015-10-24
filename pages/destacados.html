@@ -62,7 +62,7 @@
               </div>
               <div class="col-xs-8 align-right">
                 <div class="box">
-                  <a href="#" class="ui-btn ui-btn-inline">Más info</a>
+                  <a href="#popupDialog" class="ui-btn ui-btn-inline" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop">Más info</a>
                 </div>
               </div>
             </div>
@@ -99,7 +99,7 @@
               </div>
               <div class="col-xs-8 align-right">
                 <div class="box">
-                  <a href="#" class="ui-btn ui-btn-inline">Más info</a>
+                  <a href="#popupDialog" class="ui-btn ui-btn-inline" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop" class="ui-btn ui-btn-inline">Más info</a>
                 </div>
               </div>
             </div>
@@ -136,10 +136,29 @@
               </div>
               <div class="col-xs-8 align-right">
                 <div class="box">
-                  <a href="#" class="ui-btn ui-btn-inline">Más info</a>
+                  <a href="#popupDialog" class="ui-btn ui-btn-inline" data-rel="popup" data-position-to="window" data-role="button" data-inline="true" data-transition="pop" class="ui-btn ui-btn-inline">Más info</a>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        <a href="#" class="ui-btn ui-btn-inline ui-btn-fab ui-btn-fab-bottom ui-btn-raised clr-primary" data-role="toast" data-toast-message="GPS encendido" data-toast-action-title="Cerrar" data-toast-action-link="#" data-toast-action-color="yellow">
+          <i class='zmdi zmdi-gps-dot zmd-2x'></i>
+        </a>
+
+        <div data-role="popup" id="popupDialog">
+
+          <div data-role="header">
+            <h1 class='nd-title' style="text-align: center;">¿Cómo llegar?</h1>
+          </div>
+
+          <div data-role="content">
+            <p style="text-align: center;">Para llegar a este lugar, puedes usar: </p>
+            <a href="#waze" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary"><i class='zmdi zmdi-google-maps'></i> Google Maps</a>
+            <a href="#gmaps" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary"><i class='zmdi zmdi-navigation'></i> Waze</a>
+            <a href="#" data-rel="back" data-role="button" data-inline="true" class="ui-btn ui-btn-primary"><i class='zmdi zmdi-cancel'></i> Cancelar</a>
+
           </div>
         </div>
 
